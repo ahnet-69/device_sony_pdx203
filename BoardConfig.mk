@@ -41,3 +41,6 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # inherit from the proprietary version
 -include vendor/sony/pdx203/BoardConfigVendor.mk
+
+# Xperia Modules
+TARGET_SUPPORTS_HIGH_REFRESH_RATE := false
