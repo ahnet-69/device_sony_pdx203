@@ -25,6 +25,10 @@
 # Inherit from sony sm8250-common
 $(call inherit-product, device/sony/sm8250-common/edo.mk)
 
+# Audio
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
