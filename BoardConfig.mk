@@ -40,7 +40,7 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_pdx203
 
 # Props
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/properties/vendor.prop
 
 # inherit from the proprietary version
 -include vendor/sony/pdx203/BoardConfigVendor.mk
