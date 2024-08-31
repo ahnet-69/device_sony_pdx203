@@ -17,6 +17,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 
 # Overlays
 PRODUCT_PACKAGES += \
+    AOSPASonyPDX203FrameworksResCommon \
     SonyPDX203SystemUIRes \
     SonyPDX203FrameworksRes
 
