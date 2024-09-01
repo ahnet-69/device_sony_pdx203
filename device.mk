@@ -31,3 +31,5 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/sony/pdx203/pdx203-vendor.mk)
+
+TARGET_SUPPORTS_HIGH_REFRESH_RATE := false
