@@ -21,6 +21,8 @@ vendor/etc/zoom_noise_reduction/znr_48k_TeleCam.tbl
 vendor/etc/zoom_noise_reduction/znr_48k_WideCam.tbl
 vendor/etc/zoom_noise_reduction/znr_48k_defaultCam.tbl
 vendor/etc/zoom_noise_reduction/znr_parameter.xml
+vendor/etc/windnoise_reduction.data
+vendor/etc/windnoise_reduction_stat.data
 
 # Camera data
 vendor/camera/CHI08BS1/bokeh_comp.dat
