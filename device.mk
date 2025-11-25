@@ -41,6 +41,9 @@ PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     android.hidl.manager@1.0
 
+# Device Model
+DEVICE_MODEL := pdx203
+
 # Overlays
 PRODUCT_PACKAGES += \
     SonyPDX203SystemUIRes \
